@@ -1,5 +1,13 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+
+# golang go env
+export GOROOT=/usr/local/go
+export GOPATH=/home/mcipri/Documents/Projects/go/Proj1/
+#export GOBIN=/home/mcipri/Documents/Projects/gobin/
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+
 # for examples
 
 # If not running interactively, don't do anything
