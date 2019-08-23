@@ -1,7 +1,12 @@
+echo "apt-get -y update"
 apt-get -y update
+echo "apt-get -y upgrade"
 apt-get -y upgrade
+echo "add-apt-repository -y ppa:jonathonf/vim"
 add-apt-repository -y ppa:jonathonf/vim
+echo "apt-get -y update"
 apt-get -y update
+echo "apt-get -y install vim"
 apt-get -y install vim
 add-apt-repository  -y ppa:neovim-ppa/stable
 apt-get  -y update
