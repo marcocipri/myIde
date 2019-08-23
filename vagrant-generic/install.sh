@@ -1,4 +1,4 @@
-apt-get update
+apt-get -y update
 apt-get -y upgrade
 add-apt-repository -y ppa:jonathonf/vim
 apt-get -y update
