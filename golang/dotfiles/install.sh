@@ -6,7 +6,7 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
+dir=~/`dirname $0`                    # dotfiles directory
 files="bashrc vimrc zshrc config"    # list of files/folders to symlink in homedir
 ##########
 
